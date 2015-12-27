@@ -1,5 +1,7 @@
 # Package rewrite
 
+[![GoDoc](https://godoc.org/github.com/nodirt/ast-rewrite?status.svg)](https://godoc.org/github.com/nodirt/ast-rewrite)
+
 Package rewrite can recursively rewrite a Go AST given a rewriter function.
 
 The following example splits an asignment `x, y := 0, 1` to two assignments `x := 0` and `y := 1`
